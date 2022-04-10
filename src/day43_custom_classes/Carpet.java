@@ -26,9 +26,9 @@ public class Carpet {
     }
 
     public String toString(){
-        return isPersian ? "The Genuine Persian Carpet" : "The Carpet "+
-                "\nDimensions of l:"+length+" x w:"+width+
-                "\nUnitPrice :"+ unitPrice+
+        return (isPersian ? "The Genuine Persian Carpet" : "The Carpet ")+
+                "\nDimensions of "+length+" x "+width+
+                "\nUnitPrice : $"+ unitPrice+
                 "\nTotal Price: $"+ totalPrice;
     }
 }
