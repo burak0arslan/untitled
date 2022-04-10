@@ -29,6 +29,6 @@ public class Carpet {
         return isPersian ? "The Genuine Persian Carpet" : "The Carpet "+
                 "\nDimensions of l:"+length+" x w:"+width+
                 "\nUnitPrice :"+ unitPrice+
-                "\nTotal Price: "+ totalPrice;
+                "\nTotal Price: $"+ totalPrice;
     }
 }
